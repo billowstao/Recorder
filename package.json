@@ -1,0 +1,10 @@
+{
+  "name": "recorder",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pnpm exec http-server -c-1 -S -C ./cert/self-signed-cert.crt -K ./cert/self-signed-cert.key ./"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
