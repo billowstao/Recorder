@@ -524,19 +524,6 @@
       }
     </script>
 
-    <!-- 加载打赏挂件 -->
-    <script src="https://xiangyuecn.gitee.io/recorder/assets/zdemo.widget.donate.js"></script>
-    <script>
-      var donateView = document.createElement('div');
-      document.querySelector('.reclog').appendChild(donateView);
-      DonateWidget({
-        log: function (msg) {
-          reclog(msg);
-        },
-        mobElem: donateView,
-      });
-    </script>
-
     <style>
       body {
         word-wrap: break-word;
